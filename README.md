@@ -12,6 +12,9 @@ Split markdown to multiple markdown files by `---`(HorizontalRule).
 $ markdown-splitter all.md --output /path/to/dir [ --summary /path/to/SUMMARY.md ]
 ```
 
+- `-o` `--output` : path to output directory
+- `--summary` : path to SUMMARY.md([GitBook](https://github.com/GitbookIO/gitbook "GitBook"))
+
 ## Contributing
 
 1. Fork it!
