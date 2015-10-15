@@ -1,0 +1,33 @@
+{
+  "name": "markdown-splitter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/markdown-splitter.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/markdown-splitter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/markdown-splitter/issues"
+  },
+  "version": "1.0.0",
+  "description": "split a markdown to multiple markdown files.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "markdown",
+    "gitbook"
+  ],
+  "dependencies": {
+    "mdast": "^2.1.0",
+    "mkdirp": "^0.5.1",
+    "nlcst-to-string": "^1.0.0",
+    "string.prototype.repeat": "^0.2.0"
+  }
+}
