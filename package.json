@@ -13,7 +13,10 @@
   },
   "version": "1.0.0",
   "description": "split a markdown to multiple markdown files.",
-  "main": "index.js",
+  "main": "lib/markdown-splitter.js",
+  "bin": {
+    "markdown-splitter": "bin/cmd.js"
+  },
   "directories": {
     "test": "test"
   },
@@ -25,7 +28,10 @@
     "gitbook"
   ],
   "dependencies": {
+    "concat-stream": "^1.5.0",
+    "exists-sync": "0.0.3",
     "mdast": "^2.1.0",
+    "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "nlcst-to-string": "^1.0.0",
     "string.prototype.repeat": "^0.2.0"
