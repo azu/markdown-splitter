@@ -18,9 +18,11 @@ input.pipe(concat(function (buf) {
     // --summary summary path
     var summaryPath = argv.summary;
     if (summaryPath) {
+        writeSplitContents(astNodeList, outputDir, path.resolve(process.cwd(), summaryPath));
     } else {
-        if (exist(path.join(__dirname, "SUMMARY.md"))) {
-            writeSplitContents(astNodeList, outputDir, path.join(__dirname, "SUMMARY.md"));
+        var defaultSummaryPath = path.resolve(process.cwd(), "SUMMARY.md");
+        if (exist(defaultSummaryPath)) {
+            writeSplitContents(astNodeList, outputDir, defaultSummaryPath);
         } else {
             writeSplitContents(astNodeList, outputDir);
         }
