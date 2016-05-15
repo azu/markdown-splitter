@@ -1,6 +1,6 @@
 // LICENSE : MIT
 "use strict";
-const assert = require("power-assert");
+const assert = require("assert");
 const splitContent = require("../lib/markdown-splitter").splitContent;
 describe("markdown-splitter-test", function () {
     describe("#splitContent", function(){
