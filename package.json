@@ -20,7 +20,9 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "markdown",
     "gitbook"
@@ -33,5 +35,8 @@
     "nlcst-to-string": "^1.0.0",
     "remark": "^4.2.2",
     "string.prototype.repeat": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
