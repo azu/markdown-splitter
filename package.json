@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/markdown-splitter/issues"
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "split a markdown to multiple markdown files.",
   "main": "lib/markdown-splitter.js",
   "bin": {
